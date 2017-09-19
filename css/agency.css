@@ -182,7 +182,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgba(254, 209, 54, 0.9); }
+      background: rgba(255, 166, 158, 0.9); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -478,8 +478,12 @@ section#contact {
     color: #eeeeee;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
+
   section#contact .text-danger {
-    color: #e74c3c; }
+    color: #ffffff!important;
+    background-color: pink;
+    border-radius: 4px;
+  }
 
 footer {
   padding: 25px 0;
@@ -528,24 +532,24 @@ ul.social-buttons {
   text-transform: uppercase; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: #b48b01;
+    border-color: #ff8c82;
     background-color: #ffa69e; }
   .btn-primary:hover {
     color: white;
-    border-color: #f6bf01;
+    border-color: #ffa69e;
     background-color: #ffa69e; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
+    border-color: #ffa69e;
     background-color: #ffa69e; }
     .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
     .open > .btn-primary.dropdown-toggle.focus,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle:hover {
       color: white;
-      border-color: #b48b01;
-      background-color: #dcab01; }
+      border-color: #ff8c82;
+      background-color: #ff8c82; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
@@ -571,7 +575,7 @@ ul.social-buttons {
   text-transform: uppercase; }
   .btn-xl.focus, .btn-xl:focus {
     color: white;
-    border-color: #b48b01;
+    border-color: #ff8c82;
     background-color: #ffa69e; }
   .btn-xl:hover {
     color: white;
@@ -580,15 +584,15 @@ ul.social-buttons {
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
+    border-color: #ffa69e;
     background-color: #ffa69e; }
     .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,
     .open > .btn-xl.dropdown-toggle.focus,
     .open > .btn-xl.dropdown-toggle:focus,
     .open > .btn-xl.dropdown-toggle:hover {
       color: white;
-      border-color: #b48b01;
-      background-color: #dcab01; }
+      border-color: #ffa69e;
+      background-color: #ffa69e; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     background-image: none; }
@@ -716,4 +720,18 @@ ul.social-buttons {
 #return-to-top:hover i {
     color: #fff;
     top: 5px;
+}
+
+
+section h2.contacto{
+  margin-bottom: 7%;
+}
+
+
+#contact {
+  padding-top: 100px;
+}
+
+#sendMessageButton {
+  cursor: pointer;
 }

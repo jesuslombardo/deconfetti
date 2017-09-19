@@ -62,6 +62,9 @@ $( document ).ready(function() {
         scaleBannerVideoSize('.video-container video');
     });
 
+
+    loadCopyRight();
+
 });
 
 
@@ -129,3 +132,16 @@ $('#return-to-top').click(function() {      // When arrow is clicked
         scrollTop : 0                       // Scroll to top of body
     }, 500);
 });
+
+
+function loadCopyRight(){
+  var footer = document.querySelector(".copyright");
+  var parrafo = document.createElement("p");
+  
+  var fecha = new Date();
+  var anio = fecha.getFullYear();
+
+  parrafo.innerText = "Copyright © "+anio+" deconfetti"
+
+  footer.append(parrafo);
+}
