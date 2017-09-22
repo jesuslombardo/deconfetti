@@ -15,6 +15,10 @@ a {
   a.active, a:active, a:focus, a:hover {
     color: #ffa69e; }
 
+#return-to-top{
+  z-index: 999999999;
+}
+
 h1,
 h2,
 h3,
@@ -39,7 +43,54 @@ section {
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+header.masthead .intro-text .intro-heading{
+  width: 100%;
+}
+
+header.masthead .intro-text .intro-lead-in{
+  margin-top: 20px;
+}
+
+.navbar-brand{
+  text-align: center;
+}
+
+.navbar-brand img{
+  width: 70%;
+}
+    
+video{
+  display: none;
+}
+
+.poster{
+  display: block;
+}
+
 @media (min-width: 768px) {
+
+
+header.masthead .intro-text .intro-lead-in{
+  margin-top: 0px;
+}
+
+
+.poster{
+  display: none;
+}  
+
+  video{
+  display: block;
+}
+
+  .navbar-brand{
+  text-align: left;
+}
+
+.navbar-brand img{
+  width: 50%;
+}
+
   section {
     padding: 150px 0; } }
 
@@ -63,6 +114,7 @@ body {
 #mainNav {
   background-color: #5e6472; }
   #mainNav .navbar-toggler {
+    margin:auto;
     font-size: 12px;
     right: 0;
     padding: 13px;
@@ -77,6 +129,10 @@ body {
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #ffa69e; }
+
+  #mainNav .navbar-nav {
+    text-align: center;
+  }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
